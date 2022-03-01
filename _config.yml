@@ -128,7 +128,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Replit.com"
-      icon: "fab fa-solid fa-code"
+      icon: "fab fa-fw fa-code"
       url: "https://replit.com/@1971484124"
 
 # Site Footer
