@@ -106,7 +106,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am 16 year old programmer. I have 4 years of programming experience. He/Him"
   location         : "Hoover, Alabama"
-  twitter          : "@elonmusk"
+  twitter          : 
   email            :
   links:
     - label: "Email"
@@ -128,7 +128,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Replit.com"
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/1200px-Repl.it_logo.svg.png"
+      icon: "fab fa-solid fa-code"
       url: "https://replit.com/@1971484124"
 
 # Site Footer
