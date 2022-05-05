@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Ton's Projects"
 title_separator          : "-"
-subtitle                 : "m3 l1k3 c0d3" # site tagline that appears below site title in masthead
+subtitle                 : "Passionate Programming Pupil" # "m3 l1k3 c0d3" # site tagline that appears below site title in masthead
 name                     : "Ton Tran"
-description              : "Ton's site."
+description              : "Middest of programmers"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,9 +104,9 @@ analytics:
 author:
   name             : "Ton Tran"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am 16 year old programmer. I have 4 years of programming experience. He/Him"
+  bio              : "I have 5 years of programming experience. Java certified and learning C#. He/Him"
   location         : "Hoover, Alabama"
-  twitter          : 
+  twitter          :
   email            :
   links:
     - label: "Email"
