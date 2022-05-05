@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About Ton"
-    url: About-Me.md
+    url: /_pages/About-Me.md
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
