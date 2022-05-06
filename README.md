@@ -1,1 +1,1 @@
-Hi im ton
+Hi, my name is Ton. This is my Pages repo.
