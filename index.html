@@ -1,4 +1,96 @@
 ---
-layout: home
+layout: splash
 author_profile: true
 ---
+
+<style>
+    :root {
+        --min-square-width: 7.5rem;
+        --min-square-height: 6rem;
+
+        --color1: rgb(47, 70, 133);
+    }
+
+    .btn-holder {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(var(--min-square-width), 1fr));
+        grid-template-rows: repeat(2, minmax(var(--min-square-height), 0.5fr));
+    }
+
+    .main-btn {
+        display: flex;
+        border-radius: 10px;
+        background-color: var(--color1);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+        cursor: pointer;
+        user-select: none;
+
+        margin: 5px;
+
+        transition: background-color 0.1s ease-in-out transform 0.1s ease-in-out;
+    }
+
+    .main-btn:hover {
+        --color1: #4571b4;
+        transform: scale(1.03);
+    }
+
+    .main-btn:active {
+        --color1: #192a44;
+    }
+
+    .bottom-btn {
+        grid-column: span 2;
+    }
+
+    .text1 {
+        margin: 0 !important;
+    }
+</style>
+
+<div id="btncontainer" class="btn-holder">
+    <div id="button1" class="main-btn">
+        <p class="text1">
+            Projects
+        </p>
+    </div>
+    <div id="button2" class="main-btn">
+        <p class="text1">
+            Accolades
+        </p>
+    </div>
+    <div id="button2" class="main-btn bottom-btn" data-link="/_pages/About-Me">
+        <p class="text1">
+            About Me
+        </p>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.main-btn').forEach((card) => {
+        card.addEventListener('click', (e) => {
+            const link = card.dataset.link;
+            if (link) {
+                // Support Ctrl+click or Cmd+click to open in new tab
+                if (e.ctrlKey || e.metaKey) {
+                    window.open(link, '_blank');
+                } else {
+                    window.location.href = link;
+                }
+            }
+        });
+    });
+
+    function checkScreenSize() {
+        if (window.innerWidth < 240) {
+            alert("Why is your screen so small? Things might not look right here.");
+        }
+    }
+
+    window.addEventListener('load', checkScreenSize);
+</script>
