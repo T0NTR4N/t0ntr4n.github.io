@@ -20,7 +20,7 @@ title                    : "Ton's Projects"
 title_separator          : "-"
 subtitle                 : "Passionate Programming Pupil" # "m3 l1k3 c0d3" # site tagline that appears below site title in masthead
 name                     : "Ton Tran"
-description              : "Middest of programmers"
+description              : "Ton's Projects" # "A collection of projects and experiments" # site description that appears on search engine result
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
